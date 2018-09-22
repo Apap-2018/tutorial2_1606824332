@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Generator</title>
+	</head>
+	<body>
+		<p th:text=" 'a=' + ${a} + ', b=' + ${b}"></p>
+		<p th:text="${viral}"></p>
+		<li th:each="book : ${books}" th:text="${book}">En las Orillas del Sar</li>
+	</body>
+</html>
